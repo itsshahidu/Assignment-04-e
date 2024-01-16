@@ -1,0 +1,111 @@
+main {
+  min-height: 80vh;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.rating svg {
+  color: #f8e825;
+}
+
+.rating-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+}
+
+.product-title {
+  height: 2.5em; /* Set a fixed height */
+  overflow: hidden; /* Hide overflow content */
+  text-overflow: ellipsis; /* Add ellipsis for long text */
+  white-space: nowrap; /* Prevent wrapping */
+}
+
+table td,
+table th {
+  text-align: center;
+}
+
+.review {
+  margin-top: 30px;
+}
+
+.review h2 {
+  font-size: 24px;
+  background: #f4f4f4;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.review button {
+  margin-top: 10px;
+}
+
+.carousel-caption {
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  right: 0; /* Set the right property to 0 */
+  bottom: 45%;
+}
+
+
+.ProductCarousal {
+  width: 50%;
+}
+
+body {
+  background-color:#b6fbed;
+}
+
+
+
+
+/* Style for the product card */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: #fff;
+}
+
+/* Style for the product image */
+.product-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style for the product title */
+.product-title {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Style for the product rating */
+.product-rating {
+  color: #f8e825;
+}
+
+/* Style for the product price */
+.product-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #007bff;
+}
+
+/* Style for the link to the product details page */
+.product-link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* Style for the link on hover */
+.product-link:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
